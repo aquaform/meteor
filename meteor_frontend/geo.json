@@ -1,0 +1,99 @@
+{
+  "points": [
+    {
+      "id": 331,
+      "name": "ЭМЕРСИТ-0288",
+      "coord": {
+        "lon": 73.484483,
+        "lat": 61.232787
+      },
+      "online": "false",
+      "lastData": [
+        {
+          "name": "Temperature",
+          "value": 1234,
+          "unit": "C",
+          "desc": "Температура в Цельсиях",
+          "time": "2023-03-23T15:36:27.515Z"
+        },
+        {
+          "name": "Pressure",
+          "value": 666,
+          "unit": "bar",
+          "desc": "Давление",
+          "time": "2023-03-23T15:36:27.515Z"
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "name": "Сокол М-1",
+      "coord": {
+        "lon": 73.401717,
+        "lat": 61.323427
+      },
+      "online": "true",
+      "lastData": [
+        {
+          "name": "Temperature",
+          "value": 3434,
+          "unit": "C",
+          "desc": "Температура в Цельсиях",
+          "time": "2023-03-23T15:36:27.515Z"
+        },
+        {
+          "name": "Pressure",
+          "value": 983,
+          "unit": "bar",
+          "desc": "Давление",
+          "time": "2023-03-23T15:36:27.515Z"
+        }
+      ]
+    },
+    {
+      "id": 523,
+      "name": "ТЕСТ",
+      "coord": {
+        "lon": 73.421717,
+        "lat": 61.343427
+      },
+      "online": "true",
+      "lastData": [
+        {
+          "name": "Temperature",
+          "value": -5000,
+          "unit": "C",
+          "desc": "Температура в Цельсиях",
+          "time": "2023-03-23T15:36:27.515Z"
+        },
+        {
+          "name": "Pressure",
+          "value": 0,
+          "unit": "bar",
+          "desc": "Давление",
+          "time": "2023-03-23T15:36:27.515Z"
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "name": "Pressure",
+      "unit": "bar",
+      "desc": "Давление",
+      "points": [
+        331,
+        500
+      ]
+    },
+    {
+      "name": "Temperature",
+      "unit": "C",
+      "desc": "Температура в Цельсиях",
+      "points": [
+        331,
+        500
+      ]
+    }
+  ]
+}
